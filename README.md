@@ -1,20 +1,21 @@
 # BizOps_Qualifying_Loans
 
 **Welcome to the `BizOps Loan Qualifying App`!**
+
 This loan qualifying application can be used to help home loan companies generate qualifying loans generated with inquiring customer's inputs quickly and efficiently. This self sufficient end user process also allows the user to save the list of qualifying loans in a spreadsheet on their own file path folder that they provide.
 
 ---
 
 ## Technologies
-**BizOps Qualifying Loan Application makes use of the Python Programming language and the Command Line Interface.*
+*BizOps Qualifying Loan Application makes use of the Python Programming language and the Command Line Interface.*
 
 This application was built using Python 3.7.9 64 bit
 
-* [fire](fire) - For the command line interface, help page , and entry point.
+* [fire](fire) - For the command line interface, help page, and entry point.
 
 * [questionary](questionary) - For interactive user prompts and dialog
 
-* [sys](sys) - 
+* [sys](sys) - For access to system-specific parameters and functions
 
 ---
 
