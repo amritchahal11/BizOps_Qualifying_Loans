@@ -10,11 +10,11 @@ This loan qualifying application can be used to help home loan companies generat
 
 This application was built using Python 3.7.9 64 bit
 
-    * [fire](fire) - For the command line interface, help page , and entry point.
+* [fire](fire) - For the command line interface, help page , and entry point.
 
-    * [questionary](questionary) - For interactive user prompts and dialog
+* [questionary](questionary) - For interactive user prompts and dialog
 
-    * [sys](sys) - 
+* [sys](sys) - 
 
 ---
 
