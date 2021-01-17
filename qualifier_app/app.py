@@ -123,11 +123,11 @@ def save_qualifying_loans(qualifying_loans):
     save_question = questionary.text("Would you like to save your loan results as a CSV file (Y/N)?").ask()
         
     if save_question == 'Y' or 'Yes' or 'y' or 'yes':
-        csvpath = questionary.text("Please enter a file path to save your qualifying loans:").ask()
+        user_csvpath = questionary.text("Please enter a file path to save your qualifying loans:").ask()
     else:
         sys.exit("No problem! Thank you for applying.")
 
-    return save_csv(csvpath, qualifying_loans)
+    return save_csv(user_csvpath, qualifying_loans)
 
 def run():
     """The main function for running the script."""

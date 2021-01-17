@@ -30,7 +30,7 @@ def load_csv(csvpath):
     return data
 
 
-def save_csv(csvpath, qualifying_loans):
+def save_csv(user_csvpath, qualifying_loans):
         """Writes the CSV file in path provided.
 
     Args:
@@ -42,7 +42,7 @@ def save_csv(csvpath, qualifying_loans):
        A list of qualifying loans that contains the rows of data from the CSV file.
 
     """
-        with open(csvpath, "w", newline="") as csv_file: 
+        with open(user_csvpath, "w", newline="") as csv_file: 
             csvwriter = csv.writer(csv_file, delimiter=',')
 
         # Write header row first
