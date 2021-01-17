@@ -14,7 +14,7 @@ from qualifier.filters import loan_to_value
 from qualifier.filters import max_loan_size
 
 def test_save_csv():
-# Use Path from pathlib to output the test csv to ./data/output/qualifying_loans.csv
+# Use Path from pathlib to output the test csv to ./data/output/test_qualifying_loans.csv
 
     csvpath = Path('./data/output/test_qualifying_loans.csv')
     bank_data = []
